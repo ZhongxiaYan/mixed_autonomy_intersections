@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<nodes>
+  <node x="0" y="0" type="priority" id="n_0.0"/>
+  <node x="100" y="0" type="priority" id="n_100.0"/>
+  <node x="200" y="0" type="priority" id="n_200.0"/>
+  <node x="300" y="0" type="priority" id="n_300.0"/>
+  <node x="400" y="0" type="priority" id="n_400.0"/>
+  <node x="0" y="100" type="priority" id="n_0.100"/>
+  <node x="100" y="100" type="priority" id="n_100.100"/>
+  <node x="200" y="100" type="priority" id="n_200.100"/>
+  <node x="300" y="100" type="priority" id="n_300.100"/>
+  <node x="400" y="100" type="priority" id="n_400.100"/>
+  <node x="0" y="200" type="priority" id="n_0.200"/>
+  <node x="100" y="200" type="priority" id="n_100.200"/>
+  <node x="200" y="200" type="priority" id="n_200.200"/>
+  <node x="300" y="200" type="priority" id="n_300.200"/>
+  <node x="400" y="200" type="priority" id="n_400.200"/>
+  <node x="0" y="300" type="priority" id="n_0.300"/>
+  <node x="100" y="300" type="priority" id="n_100.300"/>
+  <node x="200" y="300" type="priority" id="n_200.300"/>
+  <node x="300" y="300" type="priority" id="n_300.300"/>
+  <node x="400" y="300" type="priority" id="n_400.300"/>
+  <node x="0" y="400" type="priority" id="n_0.400"/>
+  <node x="100" y="400" type="priority" id="n_100.400"/>
+  <node x="200" y="400" type="priority" id="n_200.400"/>
+  <node x="300" y="400" type="priority" id="n_300.400"/>
+  <node x="400" y="400" type="priority" id="n_400.400"/>
+</nodes>

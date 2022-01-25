@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<connections>
+  <connection from="e_n_100.0_n_100.100" to="e_n_100.100_n_100.200" fromLane="0" toLane="0"/>
+  <connection from="e_n_100.100_n_100.200" to="e_n_100.200_n_100.300" fromLane="0" toLane="0"/>
+  <connection from="e_n_100.200_n_100.300" to="e_n_100.300_n_100.400" fromLane="0" toLane="0"/>
+  <connection from="e_n_200.0_n_200.100" to="e_n_200.100_n_200.200" fromLane="0" toLane="0"/>
+  <connection from="e_n_200.100_n_200.200" to="e_n_200.200_n_200.300" fromLane="0" toLane="0"/>
+  <connection from="e_n_200.200_n_200.300" to="e_n_200.300_n_200.400" fromLane="0" toLane="0"/>
+  <connection from="e_n_300.0_n_300.100" to="e_n_300.100_n_300.200" fromLane="0" toLane="0"/>
+  <connection from="e_n_300.100_n_300.200" to="e_n_300.200_n_300.300" fromLane="0" toLane="0"/>
+  <connection from="e_n_300.200_n_300.300" to="e_n_300.300_n_300.400" fromLane="0" toLane="0"/>
+  <connection from="e_n_0.100_n_100.100" to="e_n_100.100_n_200.100" fromLane="0" toLane="0"/>
+  <connection from="e_n_100.100_n_200.100" to="e_n_200.100_n_300.100" fromLane="0" toLane="0"/>
+  <connection from="e_n_200.100_n_300.100" to="e_n_300.100_n_400.100" fromLane="0" toLane="0"/>
+  <connection from="e_n_0.200_n_100.200" to="e_n_100.200_n_200.200" fromLane="0" toLane="0"/>
+  <connection from="e_n_100.200_n_200.200" to="e_n_200.200_n_300.200" fromLane="0" toLane="0"/>
+  <connection from="e_n_200.200_n_300.200" to="e_n_300.200_n_400.200" fromLane="0" toLane="0"/>
+  <connection from="e_n_0.300_n_100.300" to="e_n_100.300_n_200.300" fromLane="0" toLane="0"/>
+  <connection from="e_n_100.300_n_200.300" to="e_n_200.300_n_300.300" fromLane="0" toLane="0"/>
+  <connection from="e_n_200.300_n_300.300" to="e_n_300.300_n_400.300" fromLane="0" toLane="0"/>
+</connections>

@@ -1,0 +1,88 @@
+av_frac: 1
+n_cols: 1
+n_rollouts_per_step: 320
+n_rows: 2
+n_workers: 40
+obs_next_cross_platoons: 3
+obs_tail: false
+worker_kwargs:
+- flow_rate_h: 700
+  flow_rate_v: 700
+- flow_rate_h: 850
+  flow_rate_v: 850
+- flow_rate_h: 850
+  flow_rate_v: 700
+- flow_rate_h: 850
+  flow_rate_v: 550
+- flow_rate_h: 850
+  flow_rate_v: 400
+- flow_rate_h: 700
+  flow_rate_v: 850
+- flow_rate_h: 550
+  flow_rate_v: 850
+- flow_rate_h: 400
+  flow_rate_v: 850
+- flow_rate_h: 1000
+  flow_rate_v: 850
+- flow_rate_h: 1000
+  flow_rate_v: 700
+- flow_rate_h: 1000
+  flow_rate_v: 550
+- flow_rate_h: 1000
+  flow_rate_v: 400
+- flow_rate_h: 850
+  flow_rate_v: 1000
+- flow_rate_h: 700
+  flow_rate_v: 1000
+- flow_rate_h: 550
+  flow_rate_v: 1000
+- flow_rate_h: 400
+  flow_rate_v: 1000
+- flow_rate_h: 700
+  flow_rate_v: 700
+- flow_rate_h: 850
+  flow_rate_v: 850
+- flow_rate_h: 850
+  flow_rate_v: 700
+- flow_rate_h: 850
+  flow_rate_v: 550
+- flow_rate_h: 850
+  flow_rate_v: 400
+- flow_rate_h: 700
+  flow_rate_v: 850
+- flow_rate_h: 550
+  flow_rate_v: 850
+- flow_rate_h: 400
+  flow_rate_v: 850
+- flow_rate_h: 1000
+  flow_rate_v: 850
+- flow_rate_h: 1000
+  flow_rate_v: 700
+- flow_rate_h: 1000
+  flow_rate_v: 550
+- flow_rate_h: 1000
+  flow_rate_v: 400
+- flow_rate_h: 850
+  flow_rate_v: 1000
+- flow_rate_h: 700
+  flow_rate_v: 1000
+- flow_rate_h: 550
+  flow_rate_v: 1000
+- flow_rate_h: 400
+  flow_rate_v: 1000
+- flow_rate_h: 700
+  flow_rate_v: 850
+- flow_rate_h: 1000
+  flow_rate_v: 550
+- flow_rate_h: 550
+  flow_rate_v: 1000
+- flow_rate_h: 850
+  flow_rate_v: 850
+- flow_rate_h: 1000
+  flow_rate_v: 700
+- flow_rate_h: 700
+  flow_rate_v: 1000
+- flow_rate_h: 1000
+  flow_rate_v: 850
+- flow_rate_h: 850
+  flow_rate_v: 1000

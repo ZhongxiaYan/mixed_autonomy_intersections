@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<nodes xmlns:xsi="F/resources/xml/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/home/gridsan/zxyan/flow/resources/xml/nodes_file.xsd">
+  <node id="n_0.0" x="0" y="0" type="priority"/>
+  <node id="n_100.0" x="100" y="0" type="priority"/>
+  <node id="n_105.0" x="105" y="0" type="priority"/>
+  <node id="n_0.100" x="0" y="100" type="priority"/>
+  <node id="n_100.100" x="100" y="100" type="priority"/>
+  <node id="n_105.100" x="105" y="100" type="priority"/>
+  <node id="n_0.200" x="0" y="200" type="priority"/>
+  <node id="n_100.200" x="100" y="200" type="priority"/>
+  <node id="n_105.200" x="105" y="200" type="priority"/>
+  <node id="n_0.205" x="0" y="205" type="priority"/>
+  <node id="n_100.205" x="100" y="205" type="priority"/>
+  <node id="n_105.205" x="105" y="205" type="priority"/>
+</nodes>

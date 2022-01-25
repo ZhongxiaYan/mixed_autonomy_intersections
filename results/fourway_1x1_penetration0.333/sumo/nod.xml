@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<nodes xmlns:xsi="F/resources/xml/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/Users/hoaxingz/Applications/flow/resources/xml/nodes_file.xsd">
+  <node x="0" y="0" type="priority" id="n_0.0"/>
+  <node x="100" y="0" type="priority" id="n_100.0"/>
+  <node x="200" y="0" type="priority" id="n_200.0"/>
+  <node x="0" y="100" type="priority" id="n_0.100"/>
+  <node x="100" y="100" type="priority" id="n_100.100"/>
+  <node x="200" y="100" type="priority" id="n_200.100"/>
+  <node x="0" y="200" type="priority" id="n_0.200"/>
+  <node x="100" y="200" type="priority" id="n_100.200"/>
+  <node x="200" y="200" type="priority" id="n_200.200"/>
+</nodes>

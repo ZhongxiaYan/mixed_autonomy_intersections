@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<connections xmlns:xsi="F/resources/xml/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/Users/hoaxingz/Applications/flow/resources/xml/connections_file.xsd">
+  <connection from="e_n_100.0_n_100.100" to="e_n_100.100_n_100.200" fromLane="0" toLane="0"/>
+  <connection from="e_n_0.100_n_100.100" to="e_n_100.100_n_200.100" fromLane="0" toLane="0"/>
+  <connection from="e_n_100.200_n_100.100" to="e_n_100.100_n_100.0" fromLane="0" toLane="0"/>
+  <connection from="e_n_200.100_n_100.100" to="e_n_100.100_n_0.100" fromLane="0" toLane="0"/>
+</connections>

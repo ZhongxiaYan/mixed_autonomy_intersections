@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<connections xmlns:xsi="F/resources/xml/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/home/gridsan/zxyan/flow/resources/xml/connections_file.xsd">
+  <connection from="e_n_100.0_n_100.100" to="e_n_100.100_n_100.200" fromLane="0" toLane="0"/>
+  <connection from="e_n_100.100_n_100.200" to="e_n_100.200_n_100.205" fromLane="0" toLane="0"/>
+  <connection from="e_n_0.100_n_100.100" to="e_n_100.100_n_105.100" fromLane="0" toLane="0"/>
+  <connection from="e_n_0.200_n_100.200" to="e_n_100.200_n_105.200" fromLane="0" toLane="0"/>
+</connections>

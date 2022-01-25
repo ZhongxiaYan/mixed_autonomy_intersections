@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<additional xmlns:xsi="F/resources/xml/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/home/gridsan/zxyan/flow/resources/xml/additional_file.xsd">
+  <vType id="human" accel="2.6" decel="4.5" sigma="0.5" tau="1.0" minGap="2.5" maxSpeed="30" speedFactor="1.0" speedDev="0.1" impatience="0.5" carFollowModel="IDM" laneChangeModel="LC2013" lcStrategic="1.0" lcCooperative="1.0" lcSpeedGain="1.0" lcKeepRight="1.0"/>
+  <vType id="rl" accel="2.6" decel="4.5" sigma="0.5" tau="1.0" minGap="2.5" maxSpeed="30" speedFactor="1.0" speedDev="0.1" impatience="0.5" carFollowModel="IDM" laneChangeModel="LC2013" lcStrategic="1.0" lcCooperative="1.0" lcSpeedGain="1.0" lcKeepRight="1.0"/>
+  <vType id="generic" accel="2.6" decel="4.5" sigma="0.5" tau="1.0" minGap="2.5" maxSpeed="30" speedFactor="1.0" speedDev="0.1" impatience="0.5" carFollowModel="IDM" laneChangeModel="LC2013" lcStrategic="1.0" lcCooperative="1.0" lcSpeedGain="1.0" lcKeepRight="1.0"/>
+  <route id="r_up_0" edges="e_100.0_100.100 e_100.100_100.200"/>
+  <route id="r_right_0" edges="e_0.100_100.100 e_100.100_200.100"/>
+  <route id="r_down_0" edges="e_100.200_100.100 e_100.100_100.0"/>
+  <route id="r_left_0" edges="e_200.100_100.100 e_100.100_0.100"/>
+  <flow id="f_up_0" type="generic" route="r_up_0" departSpeed="0" departLane="random" begin="1" end="86400" vehsPerHour="850"/>
+  <flow id="f_right_0" type="generic" route="r_right_0" departSpeed="0" departLane="random" begin="1" end="86400" vehsPerHour="1000"/>
+  <flow id="f_down_0" type="generic" route="r_down_0" departSpeed="0" departLane="random" begin="1" end="86400" vehsPerHour="850"/>
+  <flow id="f_left_0" type="generic" route="r_left_0" departSpeed="0" departLane="random" begin="1" end="86400" vehsPerHour="1000"/>
+</additional>

@@ -1,0 +1,39 @@
+av_frac: 0.333
+directions: 4way
+n_cols: 1
+n_rollouts_per_step: 256
+n_rows: 1
+n_workers: 16
+worker_kwargs:
+- flow_rate_h: 700
+  flow_rate_v: 700
+- flow_rate_h: 850
+  flow_rate_v: 850
+- flow_rate_h: 850
+  flow_rate_v: 700
+- flow_rate_h: 850
+  flow_rate_v: 550
+- flow_rate_h: 850
+  flow_rate_v: 400
+- flow_rate_h: 700
+  flow_rate_v: 850
+- flow_rate_h: 550
+  flow_rate_v: 850
+- flow_rate_h: 400
+  flow_rate_v: 850
+- flow_rate_h: 1000
+  flow_rate_v: 850
+- flow_rate_h: 1000
+  flow_rate_v: 700
+- flow_rate_h: 1000
+  flow_rate_v: 550
+- flow_rate_h: 1000
+  flow_rate_v: 400
+- flow_rate_h: 850
+  flow_rate_v: 1000
+- flow_rate_h: 700
+  flow_rate_v: 1000
+- flow_rate_h: 550
+  flow_rate_v: 1000
+- flow_rate_h: 400
+  flow_rate_v: 1000

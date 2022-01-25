@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<edges xmlns:xsi="F/resources/xml/XMLSchema-instance" xsi:noNamespaceSchemaLocation="/home/gridsan/zxyan/flow/resources/xml/edges_file.xsd">
+  <edge id="e_n_100.0_n_100.100" from="n_100.0" to="n_100.100" length="100.0" numLanes="1" speed="13"/>
+  <edge id="e_n_100.100_n_100.200" from="n_100.100" to="n_100.200" length="100.0" numLanes="1" speed="13"/>
+  <edge id="e_n_100.200_n_100.205" from="n_100.200" to="n_100.205" length="5.0" numLanes="1" speed="13"/>
+  <edge id="e_n_0.100_n_100.100" from="n_0.100" to="n_100.100" length="100.0" numLanes="1" speed="13"/>
+  <edge id="e_n_100.100_n_105.100" from="n_100.100" to="n_105.100" length="5.0" numLanes="1" speed="13"/>
+  <edge id="e_n_0.200_n_100.200" from="n_0.200" to="n_100.200" length="100.0" numLanes="1" speed="13"/>
+  <edge id="e_n_100.200_n_105.200" from="n_100.200" to="n_105.200" length="5.0" numLanes="1" speed="13"/>
+</edges>
