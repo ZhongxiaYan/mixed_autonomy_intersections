@@ -60,7 +60,7 @@ class E(list):
 
     def __getattr__(self, k):
         if k == '__array_struct__':
-            raise RuntimeError('Cannot make numpy arrays with E as elements (since E subclasses list?)')
+            raise AttributeError
         if k in ['_dict', '_name']:
             return self.__dict__[k]
         else:
