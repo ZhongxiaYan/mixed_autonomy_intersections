@@ -21,10 +21,11 @@ If you'd like to cite this work, please use
 ## Installation
 Installation instructions are provided for MacOS and Ubuntu 14.04, 16.04, and 18.04. For microscopic traffic simulations, we use the SUMO simulator with version 1.1.0; the same code may require adjustments on other SUMO versions. We require Python 3.8+.
 1. Run `bash setup/setup_sumo_<os_version>.sh` corresponding to your OS version to set up SUMO and add `~/sumo_binaries/bin` to your `SUMO_HOME` and `PATH` environment variables. Try running `sumo` and `sumo-gui` (if you'd like to use GUI). Note that GUI probably does not work on servers and may only work on local computers. For Mac installation issues, please refer to `setup/setup_issues_osx.md`.
-2. If needed, follow instructions [here](https://docs.conda.io/projects/conda/en/latest/user-guide/install/) to install Miniconda, likely `wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh` followed by `bash Miniconda3-latest-Linux-x86_64.sh`.
-3. If desired, create and activate a new conda environment following these [instructions](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-with-commands).
-3. If needed, install PyTorch (1.7+) from [pytorch.org](pytorch.org).
-4. If needed, install missing Python dependencies `pip install -r requirements.txt`.
+2. Note: the previous SUMO installation actually installs a SUMO version which does not support IDM with Gaussian noise. If you'd like to use Gaussian noise (which is what we use in the paper but does not significantly affect results), you can build the forked version of SUMO 1.1.0 at https://github.com/ZhongxiaYan/sumo.
+3. If needed, follow instructions [here](https://docs.conda.io/projects/conda/en/latest/user-guide/install/) to install Miniconda, likely `wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh` followed by `bash Miniconda3-latest-Linux-x86_64.sh`.
+4. If desired, create and activate a new conda environment following these [instructions](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html#creating-an-environment-with-commands).
+5. If needed, install PyTorch (1.7+) from [pytorch.org](pytorch.org).
+6. If needed, install missing Python dependencies `pip install -r requirements.txt`.
 
 ## Training
 To train a model, create an empty experiment directory `EXP_DIR` anywhere, then create a file called `$EXP_DIR/config.yaml` with the desired training hyperparameters. The training experiment directories corresponding to figures in the paper can be found in the `results` directory (ignore the subdirectories with "baseline" in the name), e.g. `results/twoway_2x1_penetration0.333`.
