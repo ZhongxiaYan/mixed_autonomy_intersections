@@ -109,8 +109,6 @@ class Main(Config):
             if c.tb:
                 for k, v in stats.items():
                     c._writer.add_scalar(k, v, global_step=c._i, walltime=total_time)
-            if c.wb:
-                c._writer.log(stats, step=c._i)
 
     def get_log_ii(c, ii, n_ii, print_time=False):
         return lambda **kwargs: c.log_stats(kwargs, ii, n_ii, print_time=print_time)
